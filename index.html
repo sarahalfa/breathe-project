@@ -1,33 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
 
-<h1>Breathe!</h1>
+  <title>Breathe</title>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<h1><b>Just take five minutes to breathe!</b></h1>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    crossorigin="anonymous">
 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-<div class="contrast">
- <p> about description </p>
-</div>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3>Bootstrap Sidebar</h3>
+      </div>
 
-<centre>
-  <div class="row">
-    <div class="col-sm">
-      <!-- add an image here -->
-      One of two columns
-    </div>
-    <div class="col-sm">
-      <!-- add an image here -->
-      One of two columns
+      <ul class="list-unstyled components">
+        <p>Dummy Heading</p>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Exercises</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="container">
+            <div>
+              <button type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fas fa-align-left"></i>
+                <span>Toggle Sidebar</span>
+              </button>
+            </div>
+
+            <h1>Breathe</h1>
+            <h1><b>Just take five minutes to breathe!</b></h1>
+
+            <div class="contrast">
+              <p> about description </p>
+            </div>
+
+
+            <centre>
+              <div class="row">
+                <div class="col-sm">
+                  <!-- add an image here -->
+                  One of two columns
+                </div>
+                <div class="col-sm">
+                  <!-- add an image here -->
+                  One of two columns
+                </div>
+              </div>
+            </centre>
+          </div>
+        </div>
+
+      </nav>
+
+
     </div>
   </div>
-</centre>
+
+
+
+  <script src="script.js"></script>
 </body>
-  </html>
+
+</html>

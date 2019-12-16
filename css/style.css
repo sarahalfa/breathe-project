@@ -7,17 +7,14 @@ font-family: 'Poppins', sans-serif;
 background: #fafafa;
 }
 
-h1, h2 {
- text-align: center; 
- font-size: 5em;
-}
-
 h1 {
     font-size: 5em;
+    text-align: center;
 }
 
 h2 {
     font-size: 2.5em;
+    text-align: center;
 }
 
 .wrapper {
@@ -160,3 +157,6 @@ ul ul a {
     display: table;
   }
 
+.form {
+    margin-top: 200px;
+}
